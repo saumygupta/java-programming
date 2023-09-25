@@ -1,13 +1,12 @@
 import java.util.Scanner;
 
-public class numberWhileLoop {
+public class NumberForLoop {
     public static void main(String[] args) {
-        int i=1;
         Scanner sc= new Scanner(System.in);
-        int n =sc.nextInt();
-        while (i<=n){
+        int n= sc.nextInt();
+        int i;
+        for(i=1;i<=n;i++){
             System.out.println(i);
-            i++;
         }
     }
 }
